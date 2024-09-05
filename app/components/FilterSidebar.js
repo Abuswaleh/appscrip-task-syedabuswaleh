@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./styles/filterSideBar.module.css";
+import styles from "./styles/filterSidebar.module.css";
 
 // filter options based on the UI design
 // const filterOptions = [
