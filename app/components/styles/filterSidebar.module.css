@@ -1,0 +1,55 @@
+.sidebar {
+	width: 250px;
+}
+.unselectAll {
+	text-decoration: underline;
+	color: #ccc;
+	cursor: pointer;
+}
+.customizable {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.filterOption {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.filterOption input {
+	margin-right: 10px;
+}
+
+.filterGroup {
+	margin-bottom: 0.5rem;
+	border-bottom: 1px solid #ccc;
+	padding: 1rem 0;
+}
+
+.groupHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.arrow {
+	width: 7px;
+	height: 7px;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	transform: rotate(-45deg);
+	/* transform: rotate(135deg); */
+}
+
+.filterOptions {
+	padding-left: 10px;
+}
+
+.toggleArrow {
+	font-size: 12px;
+}
